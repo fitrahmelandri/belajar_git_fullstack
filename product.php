@@ -44,4 +44,5 @@ class product
 }
 
 $prdct = new product("rinso", 10, "pencuci pakaian");
+$prdct->set_kategori("Sabun");
 $prdct->call_identity();
